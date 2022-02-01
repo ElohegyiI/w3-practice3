@@ -30,98 +30,95 @@
     appearance: none !important;
     border-radius: 0;
   }
-
-  #root {
-      background-color: #45FF32;
-  }
+/*-------css reset------*/
   
+body {
+  background-color: rgb(214, 93, 93);
+  }  
 
 section {
-    height: 100vh;
-    
-    
-    
+  height: 100vh;
 }
 
   #cube1 {
-      position: relative;
-      right: 0;
-      bottom: 0;
-      width: 400px;
-      height: 400px;
+    position: relative;
+      width: 500px;
+      height: 500px;
       background-color: rgb(192, 116, 116);
       margin: auto;
-      margin-top: 15%;
+      margin-top: 10%;
   }
   #cube2 {
     position: absolute;
-      width: 380px;
-      height: 380px;
-      background-color: rgb(192, 106, 106);
-      margin-top: 10px;
-      margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(79, 126, 126);
+    margin: 5%;
   }
   #cube3 {
     position: absolute;
-      width: 360px;
-      height: 360px;
-      background-color: rgb(197, 96, 96);
-      margin-top: 10px;
-      margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    bottom: 5%; 
+    left: 5%;
   }
   #cube4 {
     position: absolute;
-    width: 340px;
-    height: 340px;
-    background-color: rgb(199, 86, 86);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube5 {
-  position: absolute;
-    width: 320px;
-    height: 320px;
-    background-color: rgb(199, 76, 76);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube6 {
-  position: absolute;
-    width: 300px;
-    height: 300px;
-    background-color: rgb(197, 60, 60);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube7 {
-  position: absolute;
-    width: 280px;
-    height: 280px;
-    background-color: rgb(196, 50, 50);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube8 {
-    width: 260px;
-    height: 260px;
-    background-color: rgb(194, 39, 39);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube9 {
-  position: absolute;
-    top: 0;
-    width: 240px;
-    height: 240px;
-    background-color: rgb(189, 29, 29);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-#cube10 {
-  position: absolute;
-    width: 220px;
-    height: 220px;
-    background-color: rgb(158, 7, 7);
-    margin-top: 10px;
-    margin-left: 10px;
-}
+    width: 150px;
+    height: 150px;
+    background-color: rgb(85, 165, 89);
+    bottom: 5%; 
+    right: 5%;
+  }
+  #cube5 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(116, 92, 223);
+    top: 5%; 
+    right: 5%;
+  }
+  #cube6 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(56, 75, 160);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #cube7 {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(150, 85, 38);
+    bottom: 2px;
+    left: 2px;
+  }
+  #cube8 {
+  margin: auto;
+  background-color: rgb(235, 120, 37);
+  width: 150px;
+  height: 150px;
+  
+  }
+
+  .oszlop {
+    background-color: rgb(192, 116, 116);
+    width: 150px;
+    height: 100%;
+    right: 2px;
+    bottom: 2px;
+    position: fixed;
+  }
+
+  h1 {
+    color:rgb(245, 8, 47);
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    
+  }
