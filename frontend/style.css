@@ -55,10 +55,14 @@ section.image-holder img {
   object-fit: cover;
 }
 section.background-holder {
-  background-image: url("canada.jpg");
+  background-image: url("/image/magne-WPVZPhEdzns-unsplash.jpg");
   background-size: 200px 200px;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-clip: content-box;
   padding: 20px;
+}
+section.image-holder img p {
+  position: absolute;
+  top: 50%;
 }
