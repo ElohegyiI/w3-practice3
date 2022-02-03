@@ -65,12 +65,10 @@ section.image-holder button {
   transform: translateX(-50%);
   border-radius: 40px;
   margin:  160px 0;
-  background-color: rgb(220, 228, 230);
-  opacity: 0.5;
-  color:rgb(245, 31, 31);
-  font-size: 20px;
+  color:rgb(93, 60, 15);
+  font-size: 30px;
   font-family: 'IM Fell Double Pica SC', serif;
-  font-weight: 20px;  
+  font-weight: 30px;  
 }
 
 section.image-holder h1 {
@@ -79,16 +77,17 @@ section.image-holder h1 {
   left: 40px;
   font-family: 'IM Fell Double Pica SC', serif;
   font-size: 35px; 
-  color:rgb(87, 76, 76)
+  color:rgb(93, 60, 15);
 }
 
 section.image-holder p {
   width: 450px;
   margin-top: 40px;
   font-family: 'IM Fell Double Pica SC', serif;
-  font-size: 25px;
-  left: 35px; 
-  color:rgb(201, 79, 79);
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px; 
+  color:rgb(93, 60, 15);
 }
 
 section.background-holder {
@@ -103,25 +102,35 @@ section.background-holder {
 section.para {
   height: 100vh;
   width:100%;
-  background-color: royalblue;
+  background-color: rgb(119, 97, 66)
 }
 
 #about {
   min-height: unset;
 
 }
+#about article {
+  width: 100%;
+  max-width: 400px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
 
 #about h2 {
   text-align: center;
-  padding: 50px;
-  font-size: 25px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: 'IM Fell Double Pica SC', serif;
 }
 
 #about p {
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-size: 20px;
 }
 
 
@@ -146,6 +155,7 @@ section.para {
   background-color: silver;
   left: 25%;
   width: 50%;
+  height: 100%;
   opacity: 0.5;
 }
 
@@ -166,7 +176,7 @@ section.para {
 }
 
 #contact {
-  background-color: salmon;
+  background-color: rgb(119, 97, 66)
   
 }
 
@@ -192,9 +202,10 @@ section.para {
 #contact input {
   font-size: 18px;
   font-family: 'IM Fell Double Pica SC', serif;
-  border: 1px solid rgb(87, 76, 76);
+  border: 1px solid;
   padding: 10px;
   border-radius: 5px;
+  
 }
 
 button {
