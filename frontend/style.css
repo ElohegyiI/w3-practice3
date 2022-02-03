@@ -36,24 +36,61 @@ section {
   min-height: 100vh;
    
 }
-section button {
-  width: 60px;
-  height: 40px;
-  background-color: saddlebrown;
-  
+
+
+
+section.image-holder {
+  height: 100vh;
+  overflow: hidden;
+
 }
-form {
-  margin-top: 20px;
-}
-p {
-  margin-top: 20px;
-}
+
 section.image-holder img {
+  position: absolute;
   display: block;
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
+
+section.image-holder button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 60px;
+  transform: translateX(-50%);
+  border-radius: 40px;
+  margin:  160px 0;
+  background-color: rgb(220, 228, 230);
+  opacity: 0.5;
+  color:rgb(245, 31, 31);
+  font-size: 20px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-weight: 20px;  
+}
+
+section.image-holder h1 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-size: 35px; 
+  color:rgb(87, 76, 76)
+}
+
+section.image-holder p {
+  width: 450px;
+  margin-top: 40px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-size: 25px;
+  left: 35px; 
+  color:rgb(201, 79, 79);
+}
+
 section.background-holder {
   background-image: url("/image/magne-WPVZPhEdzns-unsplash.jpg");
   background-size: 200px 200px;
@@ -62,7 +99,108 @@ section.background-holder {
   background-clip: content-box;
   padding: 20px;
 }
-section.image-holder img p {
+
+section.para {
+  height: 100vh;
+  width:100%;
+  background-color: royalblue;
+}
+
+#about {
+  min-height: unset;
+
+}
+
+#about h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+}
+
+#about p {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#services {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#services img {
   position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#services ul {
+  position: relative;
+  text-align: center;
+  padding: 80px;
+  list-style-type: none;
+  background-color: silver;
+  left: 25%;
+  width: 50%;
+  opacity: 0.5;
+}
+
+#services ul li {
+  padding: 10px;
+}
+
+#services ul li h2 {
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-size: 25px;
+  color: rgb(87, 76, 76);
+}
+
+#services ul li p {
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-size: 20px;
+  color: rgb(87, 76, 76);
+}
+
+#contact {
+  background-color: salmon;
+  
+}
+
+#contact .form1 {
+  width: 100%;
+  max-width: 300px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact label {
+  display: block;
+  width: 100%;
+}
+
+#contact label {
+  font-size: 20px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  border-radius: 5px;
+}
+
+#contact input {
+  font-size: 18px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  border: 1px solid rgb(87, 76, 76);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  position: relative;
+  left: 50%;
   top: 50%;
+  font-size: 20px;
+  font-family: 'IM Fell Double Pica SC', serif;
 }
