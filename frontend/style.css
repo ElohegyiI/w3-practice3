@@ -37,6 +37,22 @@ section {
    
 }
 
+html  body {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+  text-align: center;
+  
+  font-family: 'IM Fell Double Pica SC', serif;
+  color:rgb(93, 60, 15);
+}
 
 
 section.image-holder {
