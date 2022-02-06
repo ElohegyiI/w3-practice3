@@ -1,51 +1,36 @@
-//function addTwoIntegers(firstInteger, secondInteger) {
-    //console.log(firstInteger + secondInteger)
-    //return firstInteger + secondInteger
-//if(typeof firstInteger === "number" && typeof secondInteger === "number") {return firstInteger + secondInteger
-//} else {
-  //  return "valamelyik argumentum nem szám"
-//}  
-//}
-//console.log( addTwoIntegers(12,13) );
-//console.log( addTwoIntegers(1920,85) );
-//console.log(0=="0")
+/*function addNumbers(num1, num2, num3) {
+  return num1 + num2 - num3;
+}
+console.log(addNumbers(1,2,10));*/
 
-//function addThreeIntegers (firstInteger, secondInteger,thirdInteger) {
-    
-    //return (firstInteger - secondInteger + thirdInteger)
+function mySquare(num) {
+  return num * num;
+}
+console.log(mySquare(2));
 
-//}
-//console.log( addThreeIntegers(50, 20, "y"));
-//if (typeof firstInteger === "number" && typeof secondInteger === "number" //&&typeof thirdInteger === "number") {
-  //  return (firstInteger - secondInteger + thirdInteger);
-//} else { return "valamelyik nem szám"
-//}
-//console.log(addThreeIntegers(50, 20, 0));
-//console.log (0=="0")//
+function myParam(param) {
+  return("param");
+}
+console.log(myParam("param"));
 
-function loadEvent(eventObject){
-    //console.log(eventObject)
-    const rootElement = document.getElementById("root");
-    //console.dir(document);
-    //console.dir(rootElement);
+let x = 5;
+let y = 4;
 
-    const ListofSectionElements = document.querySelectorAll("section");
-    //console.log(ListofSectionElements)
-    //rootElement.classList.add("new-class");
-    //ListofSectionElements[0].classList.add("new-class");
-    //ListofSectionElements[1].classList.add("new-class");
-    //ListofSectionElements[2].classList.add("new-class");
-    //ListofSectionElements[3].classList.add("new-class");
-    
+function myNum(x, y) {
+  return x + y;
+}
 
-    let anchors = "";
-    
-    for (const sectionElement of ListofSectionElements) {
-        //sectionElement.classList.add("new-class");
-        //anchors = anchors + '<a>$ {sectionElement.id}</a>'
-        anchors += `<a href="#${sectionElement.id}"> ${sectionElement.id}</a>`
-    }
-    console.log(anchors)
-    rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`)
-    }
-window.addEventListener("load", loadEvent)
+function myFunction(name) {
+  return "Hello" + name;
+}
+console.log(myFunction("Benő"));
+
+function Osszead(szam1, szam2, szam3) {
+  return szam1 + szam2 + szam3;
+}
+console.log(Osszead(10, 15, 20));
+
+function myString(szo) {
+  return "Szia";
+}
+console.log(myString("Szia"));
