@@ -20,6 +20,8 @@ function myNum(x, y) {
   return x + y;
 }
 
+console.log(myNum);
+
 function myFunction(name) {
   return "Hello" + name;
 }
