@@ -36,3 +36,24 @@ function myString(szo) {
   return "Szia";
 }
 console.log(myString("Szia"));
+
+function osszeAd(num1, num2) {
+  //console.log( num1 + num2); 
+  //return num1 + num2;
+  //return 'Hello'
+  if(typeof num1 === "number" && typeof num2 === "number"){
+    return num1 + num2
+  } else {
+    return "valamelyik argumentum nem szám, ezért a művelet nem elvégezhető"
+  }
+}
+console.log( osszeAd (10, "15") );
+console.log( osszeAd (100, 150) );
+console.log( osszeAd (1000, 1500) );
+console.log(0 === "0")
+
+
+
+function nev(name) {
+  return "Benő"
+}
