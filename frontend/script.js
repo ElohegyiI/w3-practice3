@@ -50,10 +50,26 @@ function osszeAd(num1, num2) {
 console.log( osszeAd (10, "15") );
 console.log( osszeAd (100, 150) );
 console.log( osszeAd (1000, 1500) );
+
+
 console.log(0 === "0")
 
 
 
-function nev(name) {
-  return "Benő"
+function nev(name1, name2) {
+  return "Benő" + "Annamária";
 }
+console.log(nev("Benő", "Annamária"));
+
+function myDog(name) {
+  return 'Pannika';
+}
+console.log( myDog ('Pannika') );
+
+function Osszehas(num1, num2) {
+  if(typeof num1 === "number" && typeof num2 === "number") {
+    return num1 * num2 
+  } else { return "nem szám"
+}
+}
+console.log(Osszehas (2, 100));
